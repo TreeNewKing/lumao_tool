@@ -1,0 +1,25 @@
+{
+  "name": "treenewkinglumaotool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node ./HDwallet.js",
+    "key": "node ./PrivateKeyGenarator.js",
+    "proxy":"node ./withdrawFromCex/ProxyConnector.js",
+    "transferFromCex":"node ./withdrawFromCex/BinanceWithdrawer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5",
+    "socksv5": "^0.0.6",
+    "ssh2": "^1.16.0"
+  }
+}
