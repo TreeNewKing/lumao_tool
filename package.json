@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "init": "node ./HDwallet.js",
     "key": "node ./PrivateKeyGenarator.js",
-    "proxy":"node ./withdrawFromCex/ProxyConnector.js",
-    "transferFromCex":"node ./withdrawFromCex/BinanceWithdrawer"
+    "proxy": "node ./withdrawFromCex/ProxyConnector.js",
+    "transferFromCex": "node ./withdrawFromCex/BinanceWithdrawer",
+    "ip":"node ./ipTool/ipScore.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,12 @@
     "dotenv": "^16.4.7",
     "ethers": "^6.13.4",
     "https-proxy-agent": "^7.0.6",
+    "imap": "^0.8.19",
+    "mailparser": "^3.7.2",
+    "nodemailer": "^6.10.0",
+    "puppeteer": "^24.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "socks-proxy-agent": "^8.0.5",
     "socksv5": "^0.0.6",
     "ssh2": "^1.16.0"
